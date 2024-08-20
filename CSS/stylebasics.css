@@ -1,0 +1,51 @@
+body{
+    background-image: url('https://www.travelandleisure.com/thmb/iAIrOVW7yWrDG8pZBpKMOvEGuNQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/new-delhi-india-NEWDELHITG0721-60d592e1603349298a0206d67d08582b.jpg');
+    background-size: cover;
+}
+#image_1{
+        width: 20%;
+        height: auto;
+    }
+#para_1{
+    background-color: azure;
+    font-family: serif;
+    text-align: justify;
+}
+#para_2{
+    background-color: aquamarine;
+    font-style: italic;
+}
+#para_3{
+    background-color: cadetblue;
+    font: bold;
+    text-decoration: underline;
+    font-style: oblique;
+    font-weight: 900;
+}
+.group_1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid red;
+    color: brown;
+
+}
+.group_2{
+    list-style: circle;
+    
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid red;
+    margin: 10% 50% 10% 50%   /*margin goes through clockwise direction  */
+
+}
+table tr{
+    border-bottom: 5px solid red;
+    border: 2px solid red
+    
+}
+table td{
+    border-right: 3px solid green;
+    padding: 10px 10px 10px 10px;
+
+}
