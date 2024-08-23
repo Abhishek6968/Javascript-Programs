@@ -1,0 +1,93 @@
+header{
+    background-color: black;
+    
+    
+
+}
+header nav{
+    float: right;
+    margin-top: 80px;
+    padding-left: 500px;
+
+    
+}
+body{
+    background-image: url("/Images/blue.jpeg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header nav a{
+    color: aliceblue;
+    text-decoration: none;
+    border: 1px solid rgb(118, 160, 169);
+    padding: 10px;
+
+}
+
+#a {
+    margin-top:15px ; 
+    margin-bottom:auto ;
+}
+.grp1{
+    color: rgba(7, 1, 1, 0.862);
+    margin-left: 8%;
+    
+    }
+
+.grp2 {
+    margin-right: 3%;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; /* This will create space between the divs */
+    align-items: center ;
+
+}
+
+.loginform {
+    background-color: #fdf5ce;
+    padding: 20px;
+    border: 2px solid #ff0000;
+    width: 200px;
+    margin-top: 40px ;
+    padding-top: 1cm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+
+}
+
+.loginform button {
+    width: 170px;
+    background-color: #007bff;
+}
+
+.loginform button:hover {
+    background-color: #0056b3;
+
+}
+ .services {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 40px;
+    margin:2% 1px
+    gap: 40px;
+    
+ }
+
+ .service-card {
+
+    border: 2px solid black;
+    width: 310px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    
+
+
+
+ }
