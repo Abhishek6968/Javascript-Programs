@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>E-Library</title>
+    <style>
+         .div-second {
+            background-image: url('/Image/library.jpg'); /* Use the correct path to your image */
+            background-size: cover;
+            background-position: center; /* Center the image */
+            height: 100vh; /* Full viewport height for demonstration */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="div-header">
+        <header>
+            <div class="container-fluid">
+                <nav class="navbar sticky-top navbar-expand-lg bg-success">
+                    <div class="container-fluid">
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="#">
+                            <img src="/Image/logo.png" alt="Logo" height="50px" width="150px">
+                        </a>
+                        <!-- Toggle button for mobile view -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- Navbar links -->
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Full Screen</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Language</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    
+    <div class="div-second d-flex align-items-center justify-content-center" style="height: 400px;">
+        <div class="container-fluid text-center">
+            <div class="row justify-content-center align-items-center g-0">
+                
+                <!-- Dropdown for language selection -->
+                <div class="col-lg-auto mb-3">
+                    <div class="dropdown" style="margin-top: 15px;">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          English
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Hindi</a></li>
+                          <li><a class="dropdown-item" href="#">Malayalam</a></li>
+                          <li><a class="dropdown-item" href="#">Another Language</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Navbar with search form -->
+                <div class="col-lg-auto">
+                    <nav class="navbar p-0">
+                        <div class="container-fluid p-0">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-primary" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    </div>
+        <div class="div-third" style="background-color: aquamarine;">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- School Education Section -->
+                    <div class="col-lg-2">
+                        <section id="school-education">
+                            <h2>School Education</h2>
+                            <table class="table table-borderless">
+                                <tr>
+                                    <td>Subjects</td>
+                                </tr>
+                                <tr>
+                                    <td>Educational Levels</td>
+                                </tr>
+                                <tr>
+                                    <td>Resource Types</td>
+                                </tr>
+                                <tr>
+                                    <td>Content Providers</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/Books/schooledu.html">Explore More Contents</a></td>
+                                </tr>
+                            </table>
+                        </section>
+                    </div>
+    
+                    <!-- Higher Education Section -->
+                    <div class="col-lg-2">
+                        <section id="higher-education">
+                            <h2>Higher Education</h2>
+                            <table class="table table-borderless">
+                                <tr>
+                                    <td>Subjects</td>
+                                </tr>
+                                <tr>
+                                    <td>Resource Types</td>
+                                </tr>
+                                <tr>
+                                    <td>Content Providers</td>
+                                </tr>
+                                <tr>
+                                    <td>Educational Levels</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/Books/heducaation.html">Explore More Contents</a></td>
+                                </tr>
+                            </table>
+                        </section>
+                    </div>
+    
+                    <!-- Research Section -->
+                    <div class="col-lg-2">
+                        <section id="research">
+                            <h2 style="margin-bottom: 50px;">Research</h2>
+                            <table class="table table-borderless">
+                                <tr>
+                                    <td>Subjects</td>
+                                </tr>
+                                <tr>
+                                    <td>Content Providers</td>
+                                </tr>
+                                <tr>
+                                    <td>Resource Types</td>
+                                </tr>
+                                <tr>
+                                    <td>Journals</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/Books/research.html">Explore More Contents</a></td>
+                                </tr>
+                            </table>
+                        </section>
+                    </div>
+    
+                    <!-- Career Development Section -->
+                    <div class="col-lg-2">
+                        <section id="career-development">
+                            <h2>Career Development</h2>
+                            <table class="table table-borderless">
+                                <tr>
+                                    <td>Examinations</td>
+                                </tr>
+                                <tr>
+                                    <td>Resource Types</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/Books/gamedev.html">Explore More Contents</a></td>
+                                </tr>
+                            </table>
+                        </section>
+                    </div>
+    
+                    <!-- Cultural Archives Section -->
+                    <div class="col-lg-2">
+                        <section id="cultural-archives">
+                            <h2>Cultural Archives</h2>
+                            <table class="table table-borderless">
+                                <tr>
+                                    <td>Content Providers</td>
+                                </tr>
+                                <tr>
+                                    <td>Resource Types</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/Books/cultural.html">Explore More Contents</a></td>
+                                </tr>
+                            </table>
+                        </section>
+                    </div>
+    
+                    <!-- Newspaper Archives Section -->
+                    <div class="col-lg-2">
+                        <section id="newspaper-archives">
+                            <h2>Newspaper Archives</h2>
+                            <table class="table table-borderless">
+                                <tr>
+                                    <td>Content Providers</td>
+                                </tr>
+                                <tr>
+                                    <td>Newspapers</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/Books/newspaper.html">Explore More Contents</a></td>
+                                </tr>
+                            </table>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

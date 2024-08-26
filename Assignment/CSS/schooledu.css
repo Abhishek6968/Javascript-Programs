@@ -1,0 +1,29 @@
+/* .marque {
+    
+    padding-left: 100%;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 24px;
+} */
+
+.book-list {
+    margin: 20px;
+}
+.book {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.book h5 {
+    color: #007bff;
+}
+.book p {
+    color: #555;
+}
+
+.book-list img {
+    height: 200px;
+    width: 400px;
+}
